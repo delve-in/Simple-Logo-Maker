@@ -31,8 +31,8 @@ const questions = [
 const promptUser = () => {
     inquirer.prompt(questions)
         .then(async (answers) => {
-            const logoContent = generateLogo(answers);
-
+            const logo = generateLogo(answers);
+            const logoContent = `<svg version="1.1" height="200" width="300" xmlns="http://www.w3.org/2000/svg"> ${logo}<text x="50%" y="60%" font-size="60px" text-anchor="middle" fill="${answers.textColor}">${answers.text}</text></svg>`
             try {
                 try {
                     await fs.writeFile('logo.svg', logoContent);
