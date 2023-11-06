@@ -53,7 +53,7 @@ The generated readme file can be accessed from main folder.
 
 Find below walkthrough video link:
 
-https://drive.google.com/file/d/1S0FlQzqncTSzKaqIYuI59NS0lm22HPnH/view?usp=sharing
+https://drive.google.com/file/d/1xDYzddVgtGmMwwrqQofpn48-2B9HCDtk/view?usp=sharing
 
 ## Credits
 
